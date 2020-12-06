@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'escape_artistregular';
+    src: url('Fonts/escapeartist-0wvkz-webfont.woff2') format('woff2'),
+         url('Fonts/escapeartist-0wvkz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: escape_artistregular;
+    font-size: 2vmax;
+    color: #333;
+    background-color: #04ca9f !important;
+}
+
+p {
+    color: black;
+    font-family: escape_artistregular;
+    font-size: 4vmax;
+}
+
+hr {
+    background-color: #04ca9f;
+    margin-right: 19%;
+    opacity: 0.3;
+}
+
+
+.content {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.question {
+    font-weight: 600;
+    font-size: 1.3vmax;
+    margin-bottom: 20px;
+    color: black;
+    font-family: escape_artistregular;
+}
+
+.questionBlock {
+    background-color: #2F4F4F;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 19%;
+    opacity: 0.7;
+}
+
+.answers {
+    font-size: 1.3vmax;
+    margin-bottom: 2%;
+    color: #04ca9f;
+    font-family: escape_artistregular;
+}
+
+.answers label {
+    display: block;
+}
+
+.hint {
+    margin-left: 90%;
+    text-align: right;
+    font-family: escape_artistregular;
+    color: black;
+    font-size: 1.3vmax;
+}
+
+.showHint {
+    display: none;
+}
+
+.hint:hover .showHint {
+    margin-left: -900%;
+    display: block;
+    font-family: escape_artistregular;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    color: #04ca9f;
+}
+
+#quiz {
+    margin: 3%;
+}
+
+#timer {
+    position: fixed;
+    left: 76%;
+}
+
+#stickyTimer {
+    position: sticky;
+    height: 11vmax;
+    width: 11vmax;
+    border-radius: 50%;
+    border: 2px solid #04ca9f;
+}
+
+.timerText {
+    margin-top: 29%;
+    text-align: center;
+    font-size: 3vmax;
+    font-family: escape_artistregular;
+}
+
+#result {
+    margin-top:2%;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    font-family: escape_artistregular;
+    color: #04ca9f;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 1.5vmax;
+}
+
+#end-quiz,
+#reset {
+    font-family: escape_artistregular;
+    font-size: 1.5vmax;
+    background-color: #04ca9f;
+    color: #000000;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#end-quiz:hover,
+#reset:hover {
+    background-color: #38a;
+}
+
+#end-quiz:disabled {
+    background-color: #38a;
+    cursor: not-allowed;
+}
+
