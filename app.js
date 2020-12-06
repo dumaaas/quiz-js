@@ -84,7 +84,7 @@ const timerTextDiv = document.getElementById('timerText');
 function startQuiz() {
 
     //pokretanje timera, kao parametar je moguce postaviti bilo koji broj sekundi 
-    countdown(15);
+    countdown(60);
 
     const output = [];
 
@@ -232,7 +232,7 @@ function resetQuiz() {
 
     //ocistimo trenutni timer i ponovo pokrenemo i prikazemo timer sa 60 sekundi
     clearTimeout(timer);
-    countdown(15);
+    countdown(60);
     timerDiv.style.display = "block";
 
     //prodjemo kroz sva pitanja i unchekiramo sva chekirana polja i vratimo boju pitanja na staro ukoliko je bila promjenjana
